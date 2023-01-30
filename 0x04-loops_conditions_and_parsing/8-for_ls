@@ -3,6 +3,6 @@
 
 for file in *; 
     do
-        cut -d "-" $file
+        cut -d "-" <<< $file
         echo "$file"
     done
