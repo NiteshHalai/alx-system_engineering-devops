@@ -2,8 +2,10 @@
 # This script is displaying "Best School" 10 times
 
 name='Best School'
+i = 0
 
-while i in `seq 10`
+while i < 11
   do
     echo $name
+    i = 1 + 1
   done
