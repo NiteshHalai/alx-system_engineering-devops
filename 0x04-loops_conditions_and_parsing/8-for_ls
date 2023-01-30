@@ -3,5 +3,5 @@
 
 for file in *; 
     do
-        cut -d "-" -f1 <<< $file;
+        cut -d "-" -f2 <<< $file;
     done
