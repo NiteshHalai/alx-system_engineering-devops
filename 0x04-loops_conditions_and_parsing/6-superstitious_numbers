@@ -4,13 +4,13 @@
 i=0
 
 while [ $i -le 19 ]
-  case [ $i -le 3 ]))
+  case [ $i -le 3 ])
     echo $i
     echo 'bad luck from China'
-  case [ $i -le 3 ]))
+  case [ $i -le 3 ])
     echo $i
     echo 'bad luck from Japan';;
-  case [ $i -le 3 ]))
+  case [ $i -le 3 ])
     echo $i
     echo 'bad luck from Italy';;
   *)
