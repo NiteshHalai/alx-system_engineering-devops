@@ -10,7 +10,7 @@ while [ $i -le 12 ]
   do
     echo "$name: $i"
     j=1
-    while [ $j -le 60 ]
+    while [ $j -le 59 ]
       do
         echo "$j"
         ((j++))
