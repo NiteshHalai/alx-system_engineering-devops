@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Random Description
+
+for file in *; do
+    if [ -d "$file" ]; then
+        echo "$file"
+    fi
+done
