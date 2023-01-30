@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Basic for loop
+
+names='Best School'
+
+for i in `seq 10`
+  do
+    echo $name
+  done
