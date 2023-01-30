@@ -2,7 +2,6 @@
 # Random Description
 
 for file in *; do
-    if [ -d "$file" ]; then
-        echo "$file"
+      echo "$file"
     fi
 done
