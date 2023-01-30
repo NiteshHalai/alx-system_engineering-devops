@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # This script is displaying "Best School" 10 times
 
-names='Best School'
+name='Best School'
 
 for i in `seq 10`
   do
