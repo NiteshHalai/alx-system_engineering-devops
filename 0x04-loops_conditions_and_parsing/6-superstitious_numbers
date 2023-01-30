@@ -19,6 +19,6 @@ while [ $i -le 19 ]
       echo $i
     esac
   
-  i++
+  ((i++))
   
   done
