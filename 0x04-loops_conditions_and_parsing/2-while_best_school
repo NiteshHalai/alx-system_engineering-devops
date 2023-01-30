@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# This script is displaying "Best School" 10 times
+
+name='Best School'
+
+while i in `seq 10`
+  do
+    echo $name
+  done
