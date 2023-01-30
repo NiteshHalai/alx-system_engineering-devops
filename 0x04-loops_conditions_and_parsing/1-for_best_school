@@ -1,6 +1,5 @@
-#!/bin/bash
-
-# Basic for loop
+#!/usr/bin/env bash
+# This script is displaying "Best School" 10 times
 
 names='Best School'
 
