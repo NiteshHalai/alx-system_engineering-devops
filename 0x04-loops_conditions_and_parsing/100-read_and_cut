@@ -1,1 +1,9 @@
+#!/usr/bin/env bash
+# Open the /etc/passwd file
 
+while IFS=':' read -r username uid gid home shell; do
+  # Display the username, user id, and home directory path
+  echo "Username: $username"
+  echo "User ID: $uid"
+  echo "Home Directory: $home"
+done < /etc/passwd
