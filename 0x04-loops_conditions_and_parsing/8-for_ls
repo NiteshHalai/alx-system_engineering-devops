@@ -4,5 +4,4 @@
 for file in *; 
     do
         cut -d "-" -f1 <<< $file;
-        echo "$file"
     done
