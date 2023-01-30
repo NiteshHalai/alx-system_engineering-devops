@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Random Description
 
-for file in *; do
-      echo "$file"
-    fi
-done
+for file in *; 
+    do
+        echo "$file"
+    done
