@@ -7,13 +7,12 @@ i=0
 
 while [ $i -le 9 ]
   do
-    if [[ $VAR -eq 10 ]]
+    if [[ $i -eq 10 ]]
       then
         echo $name
         echo 'Hi'
       else
         echo $name
     fi
-    echo $name
     ((i++))
   done
