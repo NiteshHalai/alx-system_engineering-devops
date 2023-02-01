@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# This is just a random description
+
+netstat [-a] [-b] [-e] [-n] [-o] [-p TCP UDP [-r] [-s]
