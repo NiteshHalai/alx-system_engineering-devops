@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# First, backup the existing hosts file
+
+ifconfig lo 127.0.0.2
